@@ -11,7 +11,7 @@ html,body,main
 }
 a
 {
-    display:inline-block;
+    display:block;
 }
 p, output, input[type="text"]
 {
