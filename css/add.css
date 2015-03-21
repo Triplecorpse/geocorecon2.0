@@ -1,0 +1,93 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+html,body,main
+{
+    width: 100%;
+    height: 100%;
+}
+
+p, output, input[type="text"]
+{
+    margin: 0px auto 15px;
+    font-weight: bold;
+}
+
+h1
+{
+    margin-bottom: 50px;
+}
+.form-elements, .frame
+{
+    background-color: red;
+    opacity: 0.5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 150px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 500px;
+    height: 210px;
+    z-index: 2;
+    padding: 15px;
+}
+.form-elements
+{
+    opacity: 1;
+    background-color: transparent;
+}
+output
+{
+    display: block;
+    font-family: monospace;
+}
+.output
+{
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+input
+{
+    display: block;
+    border: 1px solid #000000;
+    height: 30px;
+    border-radius: 5px;
+}
+input[type="text"]
+{
+    width: 50%;
+}
+input[type="submit"],input[type="button"]
+{
+    background-color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    width: 20px;
+}
+input[type="submit"]
+{
+    margin-right: 5px;
+}
+input[type="text"],input[type="button"],input[type="submit"]
+{
+    float: left;
+    margin: 15px 0px;
+    padding: 5px;
+    height: 25px;
+    box-sizing: content-box;
+}
+
+input[type="submit"]:hover,input[type="button"]:hover
+{
+    background-color: #ff0;
+}
+#map-canvas {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+}
