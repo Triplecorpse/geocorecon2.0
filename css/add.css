@@ -40,6 +40,13 @@ h1
     opacity: 1;
     background-color: transparent;
 }
+.instructions
+{
+    position: absolute;
+    width:600px;
+    background-color:green;
+    left:750px;
+}
 output
 {
     display: block;
