@@ -3,6 +3,7 @@
 - you can now use both mathematical and geographical representations (NSWE and +-)
 - you should not seek degree sign - there is a button that pastes it
 - map added
+- 
 ----------------
 # instructions
 - as in previous versions, formats are: dd°mm'ss", dd°mm.m', dd.d° with one spacebar as separator. You can omit degree sign ONLY in d.dd. I wanted to make spacebars remover but it seems very boring to me. So I added only regex validatoin.
