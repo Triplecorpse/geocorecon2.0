@@ -9,7 +9,10 @@ html,body,main
     width: 100%;
     height: 100%;
 }
-
+a
+{
+    display:inline-block;
+}
 p, output, input[type="text"]
 {
     margin: 0px auto 15px;
@@ -48,6 +51,15 @@ h1
     left:950px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    display:none;
+}
+.instructions>li
+{
+    list-style:none;
+}
+.inst-a:hover
+{
+    
 }
 output
 {
