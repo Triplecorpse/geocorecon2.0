@@ -33,6 +33,15 @@
                     <output id="d">d</output>
                 </div>
         </div>
+        <div>
+            <ul>
+                <li>as in previous versions, formats are: dd°mm'ss", dd°mm.m', dd.d° with one spacebar as separator. You can omit degree sign ONLY in d.dd. I wanted to make spacebars remover but it seems very boring to me. So I added only regex validatoin.</li>
+                <li>new format added: you can now input both (+-)dd°mm'ss" and dd°mm'ss"(N, S, W, E). Letters are not supported in WGS84 representation.</li>
+                <li>if you are unwilling to seek degree sing in manual input, just press the appropriate button (°)</li>
+                <li>minutes sigh is apostrophe ('), seconds one - is double qoute("). If I am not right please contact me</li>
+                <li>after right input press the (>) button and view the result</li>
+            </ul>
+        </div
         <div id="map-canvas" onload="initialize()">
 
         </div>
