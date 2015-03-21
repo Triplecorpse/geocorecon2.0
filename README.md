@@ -15,7 +15,8 @@ Instructions
 - minutes sigh is apostrophe ('), seconds one - is double qoute("). If I am not right please contact me
 - after right input press the (>) button and view the result
 
-In the next version
+In the next version(s)
 ----------------
 - batch convert
-- gpx generator
+- gpx waypoints generator
+- visual points (click'n'view)
