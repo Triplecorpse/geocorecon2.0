@@ -45,7 +45,9 @@ h1
     position: absolute;
     width:600px;
     background-color:green;
-    left:750px;
+    left:950px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 output
 {
