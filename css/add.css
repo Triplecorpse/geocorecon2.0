@@ -48,11 +48,10 @@ h1
     position: absolute;
     width:600px;
     background-color:green;
-    left:0px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    left:100px;
+    border-radius: 5px;
 }
-.instructions>li
+.instructions li
 {
     list-style:none;
 }
