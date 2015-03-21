@@ -51,14 +51,15 @@ h1
     left:100px;
     border-radius: 5px;
     padding:5px;
+    display:none;
 }
 .instructions li
 {
     list-style:none;
 }
-.inst-a:hover
+.inst-a:hover .instructions
 {
-    
+    display:block;
 }
 output
 {
