@@ -91,3 +91,10 @@ function clearEmptyStrings(arr)
     }
     return arr;
 }
+instruction()
+{
+    var x = document.getElementById("inst");
+    (x.style.display == 'none')
+        ? x.style.display = 'block'
+        : x.style.display = 'none';
+}
