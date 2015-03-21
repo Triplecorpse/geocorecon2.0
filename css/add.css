@@ -48,7 +48,7 @@ h1
     position: absolute;
     width:600px;
     background-color:green;
-    left:950px;
+    left:0px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
