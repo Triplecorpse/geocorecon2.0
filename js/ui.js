@@ -91,7 +91,7 @@ function clearEmptyStrings(arr)
     }
     return arr;
 }
-instruction()
+function instruction()
 {
     var x = document.getElementById("inst");
     (x.style.display == 'none')
