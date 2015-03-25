@@ -23,16 +23,16 @@ var dms =
             if(this.geographicalRepresentation)
             {
                 this.latitude.degrees >= 0
-                    ? lat = this.latitude.degrees + "°" + this.latitude.minutes + "'" + this.latitude.seconds + '"' + "N"
+                    ? lat = this.latitude.degrees + "°" + this.latitude.minutes + "'" + this.latitude.seconds + "''" + "N"
                     : lat = -this.latitude.degrees + "°" + this.latitude.minutes + "'" + this.latitude.seconds + '"' + "S";
                 this.longitude.degrees >= 0
-                    ? lon = this.longitude.degrees + "°" + this.longitude.minutes + "'" + this.longitude.seconds + '"' + "E"
-                    : lon = -this.longitude.degrees + "°" + this.longitude.minutes + "'" + this.longitude.seconds + '"' + "W";
+                    ? lon = this.longitude.degrees + "°" + this.longitude.minutes + "'" + this.longitude.seconds + "''" + "E"
+                    : lon = -this.longitude.degrees + "°" + this.longitude.minutes + "'" + this.longitude.seconds + "''" + "W";
             }
             else
             {
-                lat = this.latitude.degrees + "°" + this.latitude.minutes + "'" + this.latitude.seconds + '"';
-                lon = this.longitude.degrees + "°" + this.longitude.minutes + "'" + this.longitude.seconds + '"';
+                lat = this.latitude.degrees + "°" + this.latitude.minutes + "'" + this.latitude.seconds + "''";
+                lon = this.longitude.degrees + "°" + this.longitude.minutes + "'" + this.longitude.seconds + "''";
             }
             return lat  +  " "  +  lon;
         },
