@@ -34,11 +34,11 @@
         </div>
         <div id="inst" class="instructions">
             <ul>
-                <li>as in previous versions, formats are: dd°mm'ss", dd°mm.m', dd.d° with one spacebar as separator. You can omit degree sign ONLY in d.dd. I wanted to make spacebars remover but it seems very boring to me. So I added only regex validatoin.</li>
-                <li>new format added: you can now input both (+-)dd°mm'ss" and dd°mm'ss"(N, S, W, E). Letters are not supported in WGS84 representation.</li>
-                <li>if you are unwilling to seek degree sing in manual input, just press the appropriate button (°)</li>
-                <li>minutes sigh is apostrophe ('), seconds one - is double qoute("). If I am not right please contact me</li>
-                <li>after right input press the (>) button and view the result</li>
+                <li>Формат записи: dd°mm'ss", dd°mm.m' или dd.d°. Как разделитель используется пробел. Опустить знак градуса можно только в записи d.dd, также называемой WGS84.</li>
+                <li>Можно вводить как математичнскую запись (+-)dd°mm'ss", так и географическу dd°mm'ss"(N, S, W, E), кроме WGS84.</li>
+                <li>Если по каким-то причинам не желательно искать знак градуса, можно нажать кнопку (°)</li>
+                <li>Минуты обозначаются апострофом ('), секунды - двойным апострофом ('').</li>
+                <li>После правильного ввода следует нажать кнопку (>) и получить результат</li>
             </ul>
         </div>
         <div id="map-canvas" onload="initialize()">
