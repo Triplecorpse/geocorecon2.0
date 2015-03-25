@@ -83,7 +83,7 @@ function checkNwse(str)
 
 function clearEmptyStrings(arr)
 {
-    for(var i = 0; i < arr.length; i++)
+    for(var i = arr.length - 1; i >=0 ; i--)
     {
         !arr[i]
             ? arr.splice(i,1)
