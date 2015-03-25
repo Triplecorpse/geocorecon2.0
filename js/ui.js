@@ -85,7 +85,7 @@ function clearEmptyStrings(arr)
 {
     for(var i = 0; i < arr.length; i++)
     {
-        arr[i] == ""
+        !arr[i]
             ? arr.splice(i,1)
             : console.log("Nothing to do");
     }
