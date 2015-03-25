@@ -5,10 +5,10 @@ var precD = 6;
 function validateUi()
 {
     //defining regexes
-    var regDmsMath = /^[+,-]?\d{1,3}[°]\d{1,2}[']\d{1,2}[.]?\d{0,2}["]\s[+,-]?\d{1,3}[°]\d{1,2}[']\d{1,2}[.]?\d{0,2}["]/;
+    var regDmsMath = /^[+,-]?\d{1,3}[°]\d{1,2}[']\d{1,2}[.]?\d{0,2}["]\s[+,-]?\d{1,3}[°]\d{1,2}[']\d{1,2}[.]?\d{0,2}[']{2}/;
     var regDmMath = /^[+,-]?\d{1,3}[°]\d{1,2}[.]\d{1,2}[.]?\d{0,4}[']\s[+,-]?\d{1,3}[°]\d{1,2}[.]\d{1,2}[.]?\d{0,4}[']/;
     var regDMath = /^[+,-]?\d{1,3}[.]?\d{0,6}[°]?\s[+,-]?\d{1,3}[.]?\d{0,6}[°]?/;
-    var regDmsGeo = /^\d{1,3}[°]\d{1,2}[']\d{1,2}[.]?\d{0,2}["][N,S]\s[+,-]?\d{1,3}[°]\d{1,2}[']\d{1,2}[.]?\d{0,2}["][W,E]/;
+    var regDmsGeo = /^\d{1,3}[°]\d{1,2}[']\d{1,2}[.]?\d{0,2}["][N,S]\s[+,-]?\d{1,3}[°]\d{1,2}[']\d{1,2}[.]?\d{0,2}[']{2}[W,E]/;
     var regDmGeo = /^\d{1,3}[°]\d{1,2}[.]\d{1,2}[.]?\d{0,4}['][N,S]\s[+,-]?\d{1,3}[°]\d{1,2}[.]\d{1,2}[.]?\d{0,4}['][W,E]/;
 
     //defining input value
@@ -36,10 +36,10 @@ function output()
 function chooseFormat(str)
 {
     var modificators, values;
-    if(str.indexOf('"') != -1)
+    if(str.indexOf("''") != -1)
     {
         modificators = checkNwse(str);
-        values = clearEmptyStrings(str.split(/[°,',",N,W,S,E]\s?/));
+        values = clearEmptyStrings(str.split(/[°,',N,W,S,E]\s?/));
         dms.writeData(modificators[0] * values[0], +values[1], +(+values[2]).toFixed(precDms),
             modificators[1] * values[3], +values[4], +(+values[5]).toFixed(precDms), modificators[2]);
         fromDms();
