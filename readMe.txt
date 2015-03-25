@@ -4,3 +4,4 @@ Other new line
 bla-bla
 function imp() {
 }
+new
