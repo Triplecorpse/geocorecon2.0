@@ -4,6 +4,7 @@ Whats new?
 -------------
 **2.0.1**
 - changed seconds sign: two apostrophe marks instead of double quote
+- 
 **2.0**
 - you should not seek a field to fill. The program makes it for you. Though you should fill the only field correctly
 - you can now use both mathematical and geographical representations (NSWE and +-)
