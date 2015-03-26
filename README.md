@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # geocorecon 2.0.1
 
 Whats new?
@@ -24,3 +25,6 @@ In the next version(s)
 - batch convert
 - gpx waypoints generator
 - visual points (click'n'view)
+=======
+# repo
+>>>>>>> 56c5d71fd68854d7f0c2c34c0945f91f72933643
